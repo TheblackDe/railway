@@ -59,10 +59,10 @@
             <a href="{{ route('noticias.index') }}" class="text-gray dark-mode:text-white hover:text-gray">Inicio</a>
             <a href="{{ route('noticias.article_1') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 1</a>
+            <a href="{{ route('noticias.article_2') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+                2</a>
             <a href="{{ route('noticias.article_3') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 3</a>
-            <a href="{{ route('noticias.article_4') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
-                4</a>
             <a href="{{ route('noticias.article_5') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 5</a>
         </nav>
@@ -74,12 +74,11 @@
         <div class="w-full">
             <div class="text-left mb-6">
                 <h1 class="text-teal-700 text-3xl font-bold mb-4">
-                    Traición e infidelidad: el escándalo amoroso que hizo temblar al vestuario de la selección de
-                    Bélgica
+                    La modelo que denunció a Neymar por violación planea llevar su caso a Francia
                 </h1>
                 <p class="dark-mode:text-white mb-4">
-                    Por casi diez años, Thibaut Courtois y Kevin De Bruyne estuvieron enfrentados; no obstante, como
-                    cada vez que vistieron la camiseta de su país
+                    Así lo adelantó su abogado, luego de que la causa se archivase en Brasil. Según su perspectiva, la
+                    justicia del país europeo actuará de manera diferente
                 </p>
             </div>
             <div class="flex items-center justify-between mb-6">
@@ -122,29 +121,28 @@
             <div class="flex flex-col md:flex-col md:items-start">
                 <div class="md:w-full mb-6">
                     <img alt="Person wearing a space helmet" class="rounded-lg float-left mr-4" height="600"
-                        src="{{ asset('image/bruyne.jpg') }}" width="500" />
+                        src="{{ asset('image/ney.jpg') }}" width="500" />
                     <div class="clear-both">
-                        <p class="mt-2 text-sm text-gray-600">Foto del triángulo amoroso</p>
+                        <p class="mt-2 text-sm text-gray-600">Neymar y Najila Trindade, la mujer que lo denunció por
+                            violación</p>
                     </div>
                 </div>
 
 
                 <div class="md:w-full">
                     <p class="dark-mode:text-white mb-4">
-                        Corría el año 2013 cuando Kevin De Bruyne y Thibaut Courtois dejaron de ser amigos gracias a un
-                        triángulo amoroso. Mientras uno juega para el Manchester City y el otro en el Real Madrid, los
-                        jugadores no están obligados a verse las caras. Pero el Mundial de Qatar 2022 los volvió a
-                        reunir, en un ambiente que causó expectativa entre los fanáticos con buena memoria. En tanto, el
-                        vestuario de la escuadra belga tuvo este conflicto entre dos de sus miembros como protagonista.
+                        La modelo Najila Trindade estudia ahora demandar al futbolista Neymar por violación y
+                        explotación sexual en París, después de que la Justicia brasileña archivara el caso por falta de
+                        pruebas, anunció este lunes su abogado. Cosme Araújo, defensor de Trindade, afirmó este lunes en
+                        una entrevista con Efe que “están juntando elementos” para interponer una querella contra el
+                        jugador del París Saint-Germain (PSG), pero esta vez en la capital francesa.
                     </p>
                     <p class="dark-mode:text-white">
-                        Caroline admitió que engañó al futbolista, con el argumento de que él también le había sido
-                        infiel en el pasado. Al parecer, el centrocampista del Manchester City estuvo con una de sus
-                        mejores amigas de la infancia y ella quiso vengarse: “Esa noche, Thibaut me ofreció más que
-                        Kevin en tres años. Con él tenía conversaciones interesantes e incluso me cocinó. El otro jamás
-                        hizo algo así. Estando en Madrid, me acordé que él me había engañado y me dije a mi misma, ¿por
-                        qué no puedo hacer lo mismo?”, declaró Caroline en una entrevista en 2014 a la revista belga
-                        Story.
+                        “Estoy seguro de que en París habrá consecuencias diferentemente de lo que está pasando aquí (en
+                        Brasil)”, indicó en una conversación telefónica. El letrado informó que ya están en contacto con
+                        un bufete francés que está estructurando una eventual demanda contra el astro brasileño,
+                        posibilidad en la que trabajan actualmente mientras apuran sus opciones de recurrir en la
+                        Justicia brasileña.
                     </p>
                 </div>
             </div>

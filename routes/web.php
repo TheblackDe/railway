@@ -15,3 +15,15 @@ Route::get('/noticias/article_1', function () {
 Route::get('/noticias/article_2', function () {
     return view('noticias.article_2');
 })->name('noticias.article_2');
+
+Route::get('/noticias/article_3', function () {
+    return view('noticias.article_3');
+})->name('noticias.article_3');
+
+Route::get('/noticias/article_4', function () {
+    return view('noticias.article_4');
+})->name('noticias.article_4');
+
+Route::get('/noticias/article_5', function () {
+    return view('noticias.article_5');
+})->name('noticias.article_5');

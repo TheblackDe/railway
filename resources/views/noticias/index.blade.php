@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,49 +11,110 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
+            background-color: #f4f4f4;
+            /* Fondo claro */
+            color: black;
+        }
+
+        /* Estilos para el modo oscuro */
+        .dark-mode {
+            background-color: #1a202c;
+            /* Color de fondo del modo oscuro */
+            color: white;
+        }
+
+        .dark-mode footer {
+            background-color: #2d3748;
+        }
+
+        .dark-mode .text-gray-400 {
+            color: #cbd5e0 !important;
+        }
+
+        .dark-mode .border-gray-700 {
+            border-color: #4a5568 !important;
+        }
+
+        .dark-mode a.text-teal-400 {
+            color: #81e6d9;
+        }
+
+        /* Corregir el icono de la luna (rotación para evitar estar invertida) */
+        .fa-moon {
+            transform: rotate(0deg);
+        }
+
+        /* Estilo para el icono del sol */
+        .fa-sun {
+            color: #ffcc00;
+            /* Color del sol */
         }
     </style>
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class="dark-mode">
     <header class="flex justify-between items-center p-6">
         <img alt="Profile picture" class="rounded-full w-10 h-10" height="40"
-            src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-bn0UQxeuAxTPFu6L3v1u4SRC.png?st=2024-09-06T02%3A16%3A14Z&amp;se=2024-09-06T04%3A16%3A14Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-05T21%3A24%3A13Z&amp;ske=2024-09-06T21%3A24%3A13Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=J7SAanYPPxD9gmgy0Hr%2B3H/EI6xxwcXLBmlkL4Yw6EU%3D"
+            src="{{ asset('image/Black And White Modern Typographic Simple Virus Apparel Logo.png') }}"
             width="40" />
-        <nav class="flex space-x-6">
-            <a class="text-gray-400 hover:text-white" href="">Leer artículo</a>
-            <a class="text-gray-400 hover:text-white" href="#">Articles</a>
-            <a class="text-gray-400 hover:text-white" href="#">Articles</a>
-        </nav>
-        <i class="fas fa-moon text-gray-400 hover:text-white"></i>
+        <i id="themeToggle" class="fas fa-sun text-gray-400 hover:text-black cursor-pointer"></i>
     </header>
+
     <main class="px-6">
         <section class="max-w-4xl mx-auto mt-12">
-            <h1 class="text-5xl font-bold leading-tight">Writing on software design, company building, and the aerospace
-                industry.</h1>
-            <p class="text-xl text-gray-400 mt-4">All of my long-form thoughts on programming, leadership, product
-                design, and more, collected in chronological order.</p>
+            <h1 class="text-5xl font-bold leading-tight">Escándalos y Rupturas: La Otra Cara del Mundo Deportivo</h1>
+            <p class="text-xl text-gray-400 mt-4">Las polémicas amorosas y legales de figuras deportivas como Gerard
+                Piqué, Neymar y Kyle Walker revelan el lado más controversial de sus vidas fuera del deporte.</p>
         </section>
         <section class="max-w-4xl mx-auto mt-12">
             <article class="border-t border-gray-700 pt-6">
-                <p class="text-gray-400">September 5, 2022</p>
-                <h2 class="text-2xl font-bold mt-2">Crafting a design system for a multiplanetary future</h2>
-                <p class="text-gray-400 mt-2">Most companies try to stay ahead of the curve when it comes to visual
-                    design, but for Planetaria we needed to create a brand that would still inspire us 100 years from
-                    now when humanity has spread across our entire solar system.</p>
-                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_1') }}">Read article ›</a>
+                <p class="text-gray-400">Junio 4, 2022</p>
+                <h2 class="text-2xl font-bold mt-2">Shakira y Gerard Piqué confirman que se separan tras 12 años de
+                    relación</h2>
+                <p class="text-gray-400 mt-2"> La cantante colombiana Shakira ha confirmado que se está separando de su
+                    pareja, el futbolista del FC Barcelona Gerard Piqué, con el que ha tenido dos hijos.</p>
+                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_1') }}">Leer Artículo</a>
             </article>
             <article class="border-t border-gray-700 pt-6 mt-6">
-                <p class="text-gray-400">September 2, 2022</p>
-                <h2 class="text-2xl font-bold mt-2">Introducing Animaginary: High performance web animations</h2>
-                <p class="text-gray-400 mt-2">When you're building a website for a company as ambitious as Planetaria,
-                    you need to make an impression. I wanted people to visit our website and see animations that looked
-                    more realistic than reality itself.</p>
-                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_2') }}">Read article ›</a>
+                <p class="text-gray-400">Julio 22, 2013</p>
+                <h2 class="text-2xl font-bold mt-2">Traición e infidelidad: el escándalo amoroso que hizo temblar al
+                    vestuario de la selección de Bélgica</h2>
+                <p class="text-gray-400 mt-2">El portero del Chelsea se acostó con la novia de su compañero de
+                    selección, Caroline Lijnen. Le fue infiel, supuestamente, a De Bruyne porque este se había acostado
+                    antes con su mejor amiga.</p>
+                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_2') }}">Leer Artículo</a>
+            </article>
+            <article class="border-t border-gray-700 pt-6 mt-6">
+                <p class="text-gray-400">Marzo 17, 2023</p>
+                <h2 class="text-2xl font-bold mt-2">Destaparon la triple vida que llevaría la estrella del Manchester
+                    City Kyle Walker en medio de su escandaloso divorcio</h2>
+                <p class="text-gray-400 mt-2"> El diario británico The Sun afirmó que el futbolista del Manchester City
+                    mantuvo una relación de dos años con una modelo durante sus vínculos con su esposa Annie Kilner
+                    y Lauryn Goodman. Le fue infiel, supuestamente, a De Bruyne porque este se había acostado
+                    antes con su mejor amiga.</p>
+                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_3') }}">Leer Artículo</a>
+            </article>
+            <article class="border-t border-gray-700 pt-6 mt-6">
+                <p class="text-gray-400">Mayo 15, 2019</p>
+                <h2 class="text-2xl font-bold mt-2">La modelo que denunció a Neymar por violación planea llevar su caso
+                    a Francia</h2>
+                <p class="text-gray-400 mt-2">El diario británico The Sun afirmó que el futbolista del Manchester City
+                    mantuvo una relación de dos años con una modelo durante sus vínculos con su esposa Annie Kilner
+                    y Lauryn Goodman. Le fue infiel, supuestamente, a De Bruyne porque este se había acostado
+                    antes con su mejor amiga.</p>
+                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_4') }}">Leer Artículo</a>
+            </article>
+            <article class="border-t border-gray-700 pt-6 mt-6">
+                <p class="text-gray-400">Julio 29, 2024</p>
+                <h2 class="text-2xl font-bold mt-2">Lamine Yamal descubre supuesta infidelidad Alex Padilla</h2>
+                <p class="text-gray-400 mt-2">Estrella de FC Barcelona apareció de vacaciones en Marbella con Nico
+                    Williams y sin noticias de su novia, Alex Padilla. Jugador dejó de seguirla en Instagram tras
+                    hacerse viral video donde aparece sentada en las piernas de otro joven.</p>
+                <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_5') }}">Leer Artículo</a>
             </article>
         </section>
     </main>
-    <footer class="bg-gray-800 py-6 mt-12">
+    <footer class="bg-gray-100 py-6 mt-12">
         <div class="max-w-4xl mx-auto text-center text-gray-400">
             <p>&copy; 2024 Your Company. All rights reserved.</p>
             <p class="mt-2">
@@ -63,15 +125,31 @@
                 <a href="#" class="text-gray-400 hover:text-white mx-2">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="#" class="text-gray-400 hover:text-white mx-2">
+                <a href="#" class="text-gray-400 hover:text-black mx-2">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#" class="text-gray-400 hover:text-white mx-2">
+                <a href="#" class="text-gray-400 hover:text-black mx-2">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </div>
         </div>
     </footer>
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+
+            // Cambiar el icono entre sol (dark-mode activado) y luna (dark-mode desactivado)
+            if (document.body.classList.contains('dark-mode')) {
+                themeToggle.classList.remove('fa-moon');
+                themeToggle.classList.add('fa-sun');
+            } else {
+                themeToggle.classList.remove('fa-sun');
+                themeToggle.classList.add('fa-moon');
+            }
+        });
+    </script>
 </body>
 
 </html>

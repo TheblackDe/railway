@@ -59,8 +59,8 @@
             <a href="{{ route('noticias.index') }}" class="text-gray dark-mode:text-white hover:text-gray">Inicio</a>
             <a href="{{ route('noticias.article_1') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 1</a>
-            <a href="{{ route('noticias.article_3') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
-                3</a>
+            <a href="{{ route('noticias.article_2') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+                2</a>
             <a href="{{ route('noticias.article_4') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 4</a>
             <a href="{{ route('noticias.article_5') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
@@ -74,12 +74,12 @@
         <div class="w-full">
             <div class="text-left mb-6">
                 <h1 class="text-teal-700 text-3xl font-bold mb-4">
-                    Traición e infidelidad: el escándalo amoroso que hizo temblar al vestuario de la selección de
-                    Bélgica
+                    Destaparon la triple vida que llevaría la estrella del Manchester City Kyle Walker en medio de su
+                    escandaloso divorcio
                 </h1>
                 <p class="dark-mode:text-white mb-4">
-                    Por casi diez años, Thibaut Courtois y Kevin De Bruyne estuvieron enfrentados; no obstante, como
-                    cada vez que vistieron la camiseta de su país
+                    El diario británico The Sun afirmó que el futbolista del Manchester City mantuvo una relación de dos
+                    años con una modelo durante sus vínculos con su esposa Annie Kilner y Lauryn Goodman
                 </p>
             </div>
             <div class="flex items-center justify-between mb-6">
@@ -122,29 +122,29 @@
             <div class="flex flex-col md:flex-col md:items-start">
                 <div class="md:w-full mb-6">
                     <img alt="Person wearing a space helmet" class="rounded-lg float-left mr-4" height="600"
-                        src="{{ asset('image/bruyne.jpg') }}" width="500" />
+                        src="{{ asset('image/kayle.jpg') }}" width="500" />
                     <div class="clear-both">
-                        <p class="mt-2 text-sm text-gray-600">Foto del triángulo amoroso</p>
+                        <p class="mt-2 text-sm text-gray-600">Foto tomada por [Nombre del Autor]</p>
                     </div>
                 </div>
 
 
                 <div class="md:w-full">
                     <p class="dark-mode:text-white mb-4">
-                        Corría el año 2013 cuando Kevin De Bruyne y Thibaut Courtois dejaron de ser amigos gracias a un
-                        triángulo amoroso. Mientras uno juega para el Manchester City y el otro en el Real Madrid, los
-                        jugadores no están obligados a verse las caras. Pero el Mundial de Qatar 2022 los volvió a
-                        reunir, en un ambiente que causó expectativa entre los fanáticos con buena memoria. En tanto, el
-                        vestuario de la escuadra belga tuvo este conflicto entre dos de sus miembros como protagonista.
+                        La separación de Kyle Walker, una de las principales estrellas del Manchester City, domina los
+                        portales británicos. El hombre que luce la cinta de capitán en el elenco de Josep Guardiola
+                        terminó formalmente su extensa relación con su esposa Annie Kilner semanas atrás, pero el tema
+                        se instaló en los medios cuando se conocieron los explosivos detalles que dinamitaron la
+                        relación: el defensor fue padre de una niña con su ex pareja, Lauryn Goodman, por segunda vez.
+                        Pero eso parece no ser todo y en los últimas horas se sumó un controversial nuevo capítulo.
                     </p>
                     <p class="dark-mode:text-white">
-                        Caroline admitió que engañó al futbolista, con el argumento de que él también le había sido
-                        infiel en el pasado. Al parecer, el centrocampista del Manchester City estuvo con una de sus
-                        mejores amigas de la infancia y ella quiso vengarse: “Esa noche, Thibaut me ofreció más que
-                        Kevin en tres años. Con él tenía conversaciones interesantes e incluso me cocinó. El otro jamás
-                        hizo algo así. Estando en Madrid, me acordé que él me había engañado y me dije a mi misma, ¿por
-                        qué no puedo hacer lo mismo?”, declaró Caroline en una entrevista en 2014 a la revista belga
-                        Story.
+                        La que rompió el silencio entonces para confirmar que su hijo es de Walker fue la propia Goodman
+                        en The Sun on Sunday: “Le decía a Kyle: ‘Tienes que decírselo. Tienes que decirle a Annie que
+                        eres el padre de nuestra hija y que tienes una relación con tus hijos’. Kyle estaba feliz
+                        ocultando la verdad porque tenía dos familias y tenía miedo de lo que pasaría cuando Annie lo
+                        supiera, pero yo seguía diciéndole: ‘Nuestra hija no puede ser un secreto, es una humana’. No
+                        quería que se separaran o causaran daño, pero tenía que salir a la luz por el bien de todos”.
                     </p>
                 </div>
             </div>

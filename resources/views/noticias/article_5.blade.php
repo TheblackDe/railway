@@ -59,12 +59,12 @@
             <a href="{{ route('noticias.index') }}" class="text-gray dark-mode:text-white hover:text-gray">Inicio</a>
             <a href="{{ route('noticias.article_1') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 1</a>
+            <a href="{{ route('noticias.article_2') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+                2</a>
             <a href="{{ route('noticias.article_3') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 3</a>
             <a href="{{ route('noticias.article_4') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
                 4</a>
-            <a href="{{ route('noticias.article_5') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
-                5</a>
         </nav>
         <i id="themeToggle" class="fas fa-sun text-gray-400 hover:text-black cursor-pointer"></i>
     </header>
@@ -74,12 +74,12 @@
         <div class="w-full">
             <div class="text-left mb-6">
                 <h1 class="text-teal-700 text-3xl font-bold mb-4">
-                    Traición e infidelidad: el escándalo amoroso que hizo temblar al vestuario de la selección de
-                    Bélgica
+                    Lamine Yamal descubre supuesta infidelidad Alex Padilla en este revelador VIDEO
                 </h1>
                 <p class="dark-mode:text-white mb-4">
-                    Por casi diez años, Thibaut Courtois y Kevin De Bruyne estuvieron enfrentados; no obstante, como
-                    cada vez que vistieron la camiseta de su país
+                    Estrella de FC Barcelona apareció de vacaciones en Marbella con Nico Williams y sin noticias de su
+                    novia, Alex Padilla. Jugador dejó de seguirla en Instagram tras hacerse viral video donde aparece
+                    sentada en las piernas de otro joven.
                 </p>
             </div>
             <div class="flex items-center justify-between mb-6">
@@ -122,29 +122,25 @@
             <div class="flex flex-col md:flex-col md:items-start">
                 <div class="md:w-full mb-6">
                     <img alt="Person wearing a space helmet" class="rounded-lg float-left mr-4" height="600"
-                        src="{{ asset('image/bruyne.jpg') }}" width="500" />
+                        src="{{ asset('image/yamal.jpg') }}" width="500" />
                     <div class="clear-both">
-                        <p class="mt-2 text-sm text-gray-600">Foto del triángulo amoroso</p>
+                        <p class="mt-2 text-sm text-gray-600">Foto de la supuesta infidelida de Alex PAdilla a Lamine
+                            Yamal </p>
                     </div>
                 </div>
 
 
                 <div class="md:w-full">
                     <p class="dark-mode:text-white mb-4">
-                        Corría el año 2013 cuando Kevin De Bruyne y Thibaut Courtois dejaron de ser amigos gracias a un
-                        triángulo amoroso. Mientras uno juega para el Manchester City y el otro en el Real Madrid, los
-                        jugadores no están obligados a verse las caras. Pero el Mundial de Qatar 2022 los volvió a
-                        reunir, en un ambiente que causó expectativa entre los fanáticos con buena memoria. En tanto, el
-                        vestuario de la escuadra belga tuvo este conflicto entre dos de sus miembros como protagonista.
+                        La nueva estrella de FC Barcelona, Lamine Yamal atraviesa su momento personal más complicado
+                        después de saborear las mieles de la gloria con la Selección de España en la Eurocopa 2024. El
+                        atacante fue visto en las costas de Marbella junto a Nico Williams y otros compañeros,
+                        alimentado los rumores de una ruptura sentimental con su novia Alex Padilla.
                     </p>
                     <p class="dark-mode:text-white">
-                        Caroline admitió que engañó al futbolista, con el argumento de que él también le había sido
-                        infiel en el pasado. Al parecer, el centrocampista del Manchester City estuvo con una de sus
-                        mejores amigas de la infancia y ella quiso vengarse: “Esa noche, Thibaut me ofreció más que
-                        Kevin en tres años. Con él tenía conversaciones interesantes e incluso me cocinó. El otro jamás
-                        hizo algo así. Estando en Madrid, me acordé que él me había engañado y me dije a mi misma, ¿por
-                        qué no puedo hacer lo mismo?”, declaró Caroline en una entrevista en 2014 a la revista belga
-                        Story.
+                        La bella joven que lo acompañó en las celebraciones de la Eurocopa 2024 en Alemania ya no sería
+                        más su pareja desde que Alex Padilla fuera vista en un vídeo sentada sobre las piernas de otro
+                        joven durante una fiesta.
                     </p>
                 </div>
             </div>
