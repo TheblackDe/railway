@@ -4,59 +4,93 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Articles</title>
+    <title>Ogaxxx</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet" />
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f4f4f4;
-            /* Fondo claro */
-            color: black;
-        }
 
-        /* Estilos para el modo oscuro */
-        .dark-mode {
-            background-color: #1a202c;
-            /* Color de fondo del modo oscuro */
-            color: white;
-        }
+    <head>
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+                background-color: #f4f4f4;
+                /* Fondo claro */
+                color: black;
+            }
 
-        .dark-mode footer {
-            background-color: #2d3748;
-        }
+            /* Estilos para el modo oscuro */
+            .dark-mode {
+                background-color: #1a202c;
+                /* Color de fondo del modo oscuro */
+                color: white;
+            }
 
-        .dark-mode .text-gray-400 {
-            color: #cbd5e0 !important;
-        }
+            .dark-mode footer {
+                background-color: #2d3748;
+            }
 
-        .dark-mode .border-gray-700 {
-            border-color: #4a5568 !important;
-        }
+            .dark-mode .text-gray-400 {
+                color: #cbd5e0 !important;
+            }
 
-        .dark-mode a.text-teal-400 {
-            color: #81e6d9;
-        }
+            .dark-mode .border-gray-700 {
+                border-color: #4a5568 !important;
+            }
 
-        /* Corregir el icono de la luna (rotación para evitar estar invertida) */
-        .fa-moon {
-            transform: rotate(0deg);
-        }
+            .dark-mode a.text-teal-400 {
+                color: #81e6d9;
+            }
 
-        /* Estilo para el icono del sol */
-        .fa-sun {
-            color: #ffcc00;
-            /* Color del sol */
-        }
-    </style>
-</head>
+            /* Corregir el icono de la luna (rotación para evitar estar invertida) */
+            .fa-moon {
+                transform: rotate(0deg);
+            }
+
+            /* Estilo para el icono del sol */
+            .fa-sun {
+                color: #ffcc00;
+                /* Color del sol */
+            }
+
+            /* Estilos personalizados para los enlaces del nav */
+            /* nav a {
+                font-weight: 600;
+                padding: 0.5rem 1rem;
+                text-transform: uppercase;
+                transition: color 0.3s, background-color 0.3s, border-bottom-color 0.3s;
+            } */
+
+
+            nav a:hover {
+                color: #81e6d9;
+                border-bottom: 2px solid #81e6d9;
+                /*  background-color: rgba(255, 255, 255, 0.1); */
+            }
+
+
+            nav a.active {
+                color: white;
+                border-bottom: 2px solid #81e6d9;
+            }
+        </style>
+    </head>
 
 <body class="dark-mode">
     <header class="flex justify-between items-center p-6">
         <img alt="Profile picture" class="rounded-full w-10 h-10" height="40"
             src="{{ asset('image/Black And White Modern Typographic Simple Virus Apparel Logo.png') }}"
             width="40" />
+        <nav class="flex-1 flex justify-center space-x-8">
+            <a class="text-gray-400 hover:text-white" href="{{ route('cronica') }}">
+                Crónica
+            </a>
+            <a class="text-gray-400 hover:text-white" href="{{ route('ingles') }}">
+                English
+            </a>
+            <a class="text-gray-400 hover:text-white" href="#">
+                Artículo
+            </a>
+        </nav>
         <i id="themeToggle" class="fas fa-sun text-gray-400 hover:text-black cursor-pointer"></i>
     </header>
 
@@ -98,10 +132,8 @@
                 <p class="text-gray-400">Mayo 15, 2019</p>
                 <h2 class="text-2xl font-bold mt-2">La modelo que denunció a Neymar por violación planea llevar su caso
                     a Francia</h2>
-                <p class="text-gray-400 mt-2">El diario británico The Sun afirmó que el futbolista del Manchester City
-                    mantuvo una relación de dos años con una modelo durante sus vínculos con su esposa Annie Kilner
-                    y Lauryn Goodman. Le fue infiel, supuestamente, a De Bruyne porque este se había acostado
-                    antes con su mejor amiga.</p>
+                <p class="text-gray-400 mt-2"> La modelo Najila Trindade estudia ahora demandar al futbolista Neymar por
+                    violación y explotación sexual en París.</p>
                 <a class="text-teal-400 mt-2 inline-block" href="{{ route('noticias.article_4') }}">Leer Artículo</a>
             </article>
             <article class="border-t border-gray-700 pt-6 mt-6">

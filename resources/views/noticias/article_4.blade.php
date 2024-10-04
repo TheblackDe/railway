@@ -47,6 +47,18 @@
             color: #ffcc00;
             /* Color del sol */
         }
+
+        nav a:hover {
+            color: #81e6d9;
+            border-bottom: 2px solid #81e6d9;
+            /*  background-color: rgba(255, 255, 255, 0.1); */
+        }
+
+
+        nav a.active {
+            color: white;
+            border-bottom: 2px solid #81e6d9;
+        }
     </style>
 </head>
 
@@ -55,15 +67,20 @@
         <img alt="Profile picture" class="rounded-full w-10 h-10" height="40"
             src="{{ asset('image/Black And White Modern Typographic Simple Virus Apparel Logo.png') }}"
             width="40" />
-        <nav class="flex space-x-6">
-            <a href="{{ route('noticias.index') }}" class="text-gray dark-mode:text-white hover:text-gray">Inicio</a>
-            <a href="{{ route('noticias.article_1') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+        <nav class="flex-1 flex justify-center space-x-8">
+            <a class="text-gray-400 hover:text-white" href="{{ route('noticias.index') }}"
+                class="text-gray dark-mode:text-white hover:text-gray">Inicio</a>
+            <a class="text-gray-400 hover:text-white" href="{{ route('noticias.article_1') }}"
+                class="text-gray dark-mode:text-white hover:text-gray">Art
                 1</a>
-            <a href="{{ route('noticias.article_2') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+            <a class="text-gray-400 hover:text-white" href="{{ route('noticias.article_2') }}"
+                class="text-gray dark-mode:text-white hover:text-gray">Art
                 2</a>
-            <a href="{{ route('noticias.article_3') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+            <a class="text-gray-400 hover:text-white" href="{{ route('noticias.article_3') }}"
+                class="text-gray dark-mode:text-white hover:text-gray">Art
                 3</a>
-            <a href="{{ route('noticias.article_5') }}" class="text-gray dark-mode:text-white hover:text-gray">Art
+            <a class="text-gray-400 hover:text-white" href="{{ route('noticias.article_5') }}"
+                class="text-gray dark-mode:text-white hover:text-gray">Art
                 5</a>
         </nav>
         <i id="themeToggle" class="fas fa-sun text-gray-400 hover:text-black cursor-pointer"></i>
@@ -87,7 +104,7 @@
                         src="{{ asset('image/wallpapersden.com_anime-girl-hacker-hd-cute-digital-art_1366x768.jpg') }}" />
                     <div>
                         <p class="text-base font-semibold text-gray-600">
-                            Edgardo Jose Velasquez
+                            Ogaxxx
                         </p>
                         <p class="text-xs text-gray-600">
                             16 de septiembre de 2024 - 2:00 p. m.
@@ -120,12 +137,11 @@
             </div>
             <div class="flex flex-col md:flex-col md:items-start">
                 <div class="md:w-full mb-6">
-                    <img alt="Person wearing a space helmet" class="rounded-lg float-left mr-4" height="600"
+                    <img alt="sdfdsfdsfdsfds" class="rounded-lg mx-auto" height="600"
                         src="{{ asset('image/ney.jpg') }}" width="500" />
-                    <div class="clear-both">
-                        <p class="mt-2 text-sm text-gray-600">Neymar y Najila Trindade, la mujer que lo denunció por
-                            violación</p>
-                    </div>
+                    <p class="mt-4 text-sm text-gray-600 text-center">Neymar y Najila Trindade, la mujer que lo denunció
+                        por
+                        violación</p>
                 </div>
 
 

@@ -27,3 +27,11 @@ Route::get('/noticias/article_4', function () {
 Route::get('/noticias/article_5', function () {
     return view('noticias.article_5');
 })->name('noticias.article_5');
+
+Route::get('/cronica', function () {
+    return view('noticias.cronica');
+})->name('cronica');
+
+Route::get('/ingles', function () {
+    return view('noticias.textoIngles');
+})->name('ingles');

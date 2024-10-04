@@ -82,6 +82,9 @@
             <a class="text-gray-400 hover:text-white" href="{{ route('noticias.article_4') }}"
                 class="text-gray dark-mode:text-white hover:text-gray">Art
                 4</a>
+            <a class="text-gray-400 hover:text-white" href="{{ route('noticias.article_5') }}"
+                class="text-gray dark-mode:text-white hover:text-gray">Art
+                5</a>
         </nav>
         <i id="themeToggle" class="fas fa-sun text-gray-400 hover:text-black cursor-pointer"></i>
     </header>
@@ -91,12 +94,13 @@
         <div class="w-full">
             <div class="text-left mb-6">
                 <h1 class="text-teal-700 text-3xl font-bold mb-4">
-                    Lamine Yamal descubre supuesta infidelidad Alex Padilla en este revelador VIDEO
+                    Luis Díaz: De La Guajira al estrellato del fútbol mundial
                 </h1>
                 <p class="dark-mode:text-white mb-4">
-                    Estrella de FC Barcelona apareció de vacaciones en Marbella con Nico Williams y sin noticias de su
-                    novia, Alex Padilla. Jugador dejó de seguirla en Instagram tras hacerse viral video donde aparece
-                    sentada en las piernas de otro joven.
+                    La inspiradora historia de superación de Luis Díaz, el habilidoso extremo colombiano que ha
+                    deslumbrado
+                    al mundo con su talento y determinación, hasta convertirse en una de las estrellas del fútbol
+                    europeo.
                 </p>
             </div>
             <div class="flex items-center justify-between mb-6">
@@ -108,7 +112,7 @@
                             Ogaxxx
                         </p>
                         <p class="text-xs text-gray-600">
-                            16 de septiembre de 2024 - 2:00 p. m.
+                            27 de septiembre de 2024 - 4:00 p. m.
                         </p>
                     </div>
                 </div>
@@ -132,36 +136,79 @@
                     </a>
                     <a class="text-gray-600 hover:text-gray-800" href="#">
                         <i class="fas fa-comment"></i>
-                        0
+                        2
                     </a>
                 </div>
             </div>
             <div class="flex flex-col md:flex-col md:items-start">
                 <div class="md:w-full mb-6">
-                    <img alt="sdfdsfdsfdsfds" class="rounded-lg mx-auto" height="600"
-                        src="{{ asset('image/yamal.jpg') }}" width="500" />
-                    <p class="mt-4 text-sm text-gray-600 text-center">Foto de la supuesta infidelida de Alex PAdilla a
-                        Lamine
-                        Yamal </p>
-                </div>
-
-
-                <div class="md:w-full">
-                    <p class="dark-mode:text-white mb-4">
-                        La nueva estrella de FC Barcelona, Lamine Yamal atraviesa su momento personal más complicado
-                        después de saborear las mieles de la gloria con la Selección de España en la Eurocopa 2024. El
-                        atacante fue visto en las costas de Marbella junto a Nico Williams y otros compañeros,
-                        alimentado los rumores de una ruptura sentimental con su novia Alex Padilla.
-                    </p>
-                    <p class="dark-mode:text-white">
-                        La bella joven que lo acompañó en las celebraciones de la Eurocopa 2024 en Alemania ya no sería
-                        más su pareja desde que Alex Padilla fuera vista en un vídeo sentada sobre las piernas de otro
-                        joven durante una fiesta.
-                    </p>
+                    <img alt="Luis Díaz celebrando un gol" class="rounded-lg mx-auto" height="600"
+                        src="{{ asset('image/luis.avif') }}" width="500" />
+                    <p class="mt-4 text-sm text-gray-600 text-center">Luis Díaz celebrando un
+                        gol decisivo con la Selección Colombia</p>
                 </div>
             </div>
+
+
+
+            <div class="md:w-full">
+                <h2 class="text-2xl font-bold mb-4 dark-mode:text-white">Infancia y Primeros Pasos</h2>
+                <p class="dark-mode:text-white mb-4">
+                    Luis Fernando Díaz Marulanda nació el 13 de enero de 1997 en Barrancas, La Guajira, una región
+                    marginada de Colombia. Creció en una comunidad wayuu, donde las oportunidades de llegar a ser
+                    futbolista profesional eran casi inexistentes. Sin embargo, desde muy pequeño, Luis demostró
+                    su pasión por el fútbol, participando en torneos locales y llamando la atención por su habilidad
+                    con el balón.
+                </p>
+
+                <h2 class="text-2xl font-bold mb-4 dark-mode:text-white">El Salto al Profesionalismo</h2>
+                <p class="dark-mode:text-white mb-4">
+                    Su gran oportunidad llegó cuando fue seleccionado para participar en la Copa América de Pueblos
+                    Indígenas
+                    en 2015, donde brilló como una de las estrellas del torneo. Este evento le abrió las puertas
+                    para unirse
+                    a las divisiones menores del Barranquilla FC, el equipo filial del Junior de Barranquilla, uno
+                    de los clubes
+                    más importantes del país.
+                </p>
+
+                <h2 class="text-2xl font-bold mb-4 dark-mode:text-white">Consagración en el Junior de Barranquilla
+                </h2>
+                <p class="dark-mode:text-white mb-4">
+                    En el Junior, Díaz rápidamente subió a las categorías mayores y se consolidó como una de las
+                    promesas del
+                    fútbol colombiano. Con su velocidad y capacidad de desborde, fue pieza clave en los títulos que
+                    consiguió
+                    el Junior tanto en liga como en la Copa Colombia. Su desempeño llamó la atención de varios
+                    clubes europeos.
+                </p>
+
+                <h2 class="text-2xl font-bold mb-4 dark-mode:text-white">Explosión en Europa: FC Porto y Liverpool
+                </h2>
+                <p class="dark-mode:text-white mb-4">
+                    En 2019, Luis Díaz dio el salto al fútbol europeo al firmar con el FC Porto de Portugal. Su
+                    impacto fue inmediato,
+                    ganando títulos y destacándose como uno de los mejores extremos de la liga. En 2022, su talento
+                    fue reconocido
+                    por el Liverpool FC de Inglaterra, que lo fichó para reforzar su ataque. Con el equipo de Jürgen
+                    Klopp, Díaz
+                    ha brillado tanto en la Premier League como en competiciones europeas, siendo decisivo en varios
+                    partidos.
+                </p>
+
+                <h2 class="text-2xl font-bold mb-4 dark-mode:text-white">Estado Actual y Futuro</h2>
+                <p class="dark-mode:text-white mb-4">
+                    En la actualidad, Luis Díaz es uno de los jugadores más importantes del Liverpool FC y de la
+                    Selección Colombia.
+                    Siendo una pieza clave en el esquema de Arne Slot y una esperanza para Colombia en las
+                    eliminatorias
+                    al Mundial 2026.
+                </p>
+            </div>
+        </div>
         </div>
     </main>
+
 
     <footer class="bg-gray-100 py-6 mt-12">
         <div class="max-w-4xl mx-auto text-center text-gray-400">
