@@ -77,8 +77,7 @@
 
 <body class="dark-mode">
     <header class="flex justify-between items-center p-6">
-        <img alt="Profile picture" class="rounded-full w-10 h-10" height="40"
-            src="{{ asset('image/Black And White Modern Typographic Simple Virus Apparel Logo.png') }}"
+        <img alt="Profile picture" class="rounded-full w-10 h-10" height="40" src="{{ asset('image/ggg.png') }}"
             width="40" />
         <nav class="flex-1 flex justify-center space-x-8">
             <a class="text-gray-400 hover:text-white" href="{{ route('cronica') }}">
@@ -88,7 +87,7 @@
                 English
             </a>
             <a class="text-gray-400 hover:text-white" href="{{ route('opinion') }}">
-                Artículo
+                Opinion
             </a>
         </nav>
         <i id="themeToggle" class="fas fa-sun text-gray-400 hover:text-black cursor-pointer"></i>
