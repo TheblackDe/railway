@@ -35,3 +35,7 @@ Route::get('/cronica', function () {
 Route::get('/ingles', function () {
     return view('noticias.textoIngles');
 })->name('ingles');
+
+Route::get('/opinion', function () {
+    return view('noticias.opinion');
+})->name('opinion');

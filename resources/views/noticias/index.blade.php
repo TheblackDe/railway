@@ -87,7 +87,7 @@
             <a class="text-gray-400 hover:text-white" href="{{ route('ingles') }}">
                 English
             </a>
-            <a class="text-gray-400 hover:text-white" href="#">
+            <a class="text-gray-400 hover:text-white" href="{{ route('opinion') }}">
                 Artículo
             </a>
         </nav>
